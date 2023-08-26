@@ -42,6 +42,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
 				outDir: 'build',
 				sourcemap: true,
 			},
+			base: './',
 			test: {
 				globals: true,
 				environment: 'jsdom',
